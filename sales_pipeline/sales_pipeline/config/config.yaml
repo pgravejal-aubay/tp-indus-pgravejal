@@ -1,0 +1,29 @@
+catalog:
+  name: "paul"
+  schemas:
+    bronze: "bronze"
+    silver: "silver"
+    gold: "gold"
+
+paths:
+  base_volume: "/Volumes/workspace/default/data"
+  product_catalog: "catalogue_produits.csv"
+
+cities:
+  paris:
+    country: "France"
+    currency: "EUR"
+    table_name: "paris_sales"
+  new_york:
+    country: "USA"
+    currency: "USD"
+    table_name: "new_york_sales"
+  tokyo:
+    country: "Japan"
+    currency: "JPY"
+    table_name: "tokyo_sales"
+
+exchange_rates:
+  USD: 0.85
+  JPY: 0.0057
+  EUR: 1.0
